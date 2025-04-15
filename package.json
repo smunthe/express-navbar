@@ -4,7 +4,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start":"node server.js"
+    "start": "node server.js"
   },
   "engines": {
     "node": ">=16"
@@ -12,9 +12,17 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "description": "",
   "dependencies": {
     "express": "^5.1.0",
     "morgan": "^1.10.0"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/smunthe/express-navbar.git"
+  },
+  "bugs": {
+    "url": "https://github.com/smunthe/express-navbar/issues"
+  },
+  "homepage": "https://github.com/smunthe/express-navbar#readme",
+  "description": ""
 }
